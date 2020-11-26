@@ -7,11 +7,11 @@ const kBottomContainerColour = Colors.lightGreen;
 
 const kbottemContainerStyle = TextStyle(
   fontSize: 25.0,
-  fontWeight: FontWeight.bold,
+
 );
 
 const kLabelStyle = TextStyle(
-  fontSize: 20.0,
+  fontSize: 18.0,
 );
 const kNumberStyle = TextStyle(
   fontSize: 50.0,
