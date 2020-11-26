@@ -45,7 +45,7 @@ class _InputPageState extends State<InputPage> {
                         ? kactiveColor
                         : kinactiveColor,
                     cardWidget: iconColumn(
-                      icon: Icons.accessibility,
+
                       label: "Female",
                     ),
                   ),
