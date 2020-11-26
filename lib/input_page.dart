@@ -64,7 +64,7 @@ class _InputPageState extends State<InputPage> {
                         ? kactiveColor
                         : kinactiveColor,
                     cardWidget: iconColumn(
-                      icon: Icons.ac_unit_outlined,
+
                       label: "Male",
                     ),
                   ),
