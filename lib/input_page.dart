@@ -38,22 +38,6 @@ class _InputPageState extends State<InputPage> {
                   child: ReuseableContainer(
                     onPress: () {
                       setState(() {
-                        selectedGender = Gender.male;
-                      });
-                    },
-                    colorr: selectedGender == Gender.male
-                        ? kactiveColor
-                        : kinactiveColor,
-                    cardWidget: iconColumn(
-                      icon: Icons.ac_unit_outlined,
-                      label: "Male",
-                    ),
-                  ),
-                ),
-                Expanded(
-                  child: ReuseableContainer(
-                    onPress: () {
-                      setState(() {
                         selectedGender = Gender.female;
                       });
                     },
@@ -69,6 +53,23 @@ class _InputPageState extends State<InputPage> {
               ],
             ),
           ),
+                Expanded(
+                  child: ReuseableContainer(
+                    onPress: () {
+                      setState(() {
+                        selectedGender = Gender.male;
+                      });
+                    },
+                    colorr: selectedGender == Gender.male
+                        ? kactiveColor
+                        : kinactiveColor,
+                    cardWidget: iconColumn(
+                      icon: Icons.ac_unit_outlined,
+                      label: "Male",
+                    ),
+                  ),
+                ),
+
           Expanded(
             child: ReuseableContainer(
               colorr: kactiveColor,
