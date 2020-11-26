@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 const kactiveColor = Color(0xFF1D1E78);
 const kinactiveColor = Color(0xFF115690);
-const kBottomContainerHeight = 80.0;
+const kBottomContainerHeight = 70.0;
 const kBottomContainerColour = Colors.lightGreen;
 
 const kbottemContainerStyle = TextStyle(
