@@ -19,12 +19,12 @@ const kNumberStyle = TextStyle(
 );
 
 const kTitleTextStyle = TextStyle(
-  fontSize: 30.0,
+  fontSize: 25.0,
 
 );
 
 const kResultTextStyle = TextStyle(
-  color: Color(0xFF24D876),
+  color: Color(0xFF24D8469),
   fontSize: 22.0,
   fontWeight: FontWeight.bold,
 );
